@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    background-size:cover;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+
+}
+
+.container {
+
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+}
+.widget{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 0%;
+}
+.widget p{
+display: inline-block;
+line-height: 1em;
+}
+.fecha {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0.3125rem;
+    background-color: hsl(184, 58%, 75%);
+    padding: 20px;
+    width: 100%;
+}
+.reloj{
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background:  hsl(184, 58%, 75%);
+}
+
+.reloj .caja-segundos {
+    display:inline-block;
+}
+.reloj .segundos,
+.reloj .ampm{
+    font-size: 0.3em;
+    display:block;
+}
