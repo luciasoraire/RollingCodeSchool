@@ -1,0 +1,16 @@
+#BotonJugar{
+    color: #ffffff;
+    border-color: hsl(184, 58%, 75%);
+    background-color: hsl(184, 58%, 75%);
+}
+
+input.num{
+    width: 8em;
+
+}
+button.enviar{
+    width: 1.5em;
+    background-color: hsl(184, 58%, 75%);
+    margin-left: 1.5em;
+    border-color: hsl(184, 58%, 75%);
+}
