@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+
+button{
+    padding: 9px;
+    background-color: rgb(160, 229, 226);
+    border-radius: 15px;
+    border: none;
+}   
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
