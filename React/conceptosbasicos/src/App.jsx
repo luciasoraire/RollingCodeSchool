@@ -1,8 +1,9 @@
 import TituloPrincipal from "./components/TituloPrincipal";
 
 function App() {
+  const friend = "my friend"
   return (
-    <TituloPrincipal></TituloPrincipal>
+    <TituloPrincipal codigoFriend={friend}></TituloPrincipal>
   );
 }
 
