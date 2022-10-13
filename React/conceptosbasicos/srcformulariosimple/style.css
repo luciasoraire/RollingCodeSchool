@@ -1,0 +1,29 @@
+div.text-center.card.mt-4{
+    background-color: rgb(255, 60, 125);
+    border: none;
+    width: 300px;
+}
+
+
+h1{
+    color: white;
+}
+
+div.formulario{
+    text-align: center;   
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+div.titulo{
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+div.mb-4{
+    width: 250px;
+}
+
