@@ -1,0 +1,9 @@
+button.btn.btn-dark{
+    background-color: palevioletred;
+    border-color: white;
+}
+
+button.btn.btn-light{
+    background-color: rgb(253, 218, 229);
+    border-color: white;
+}
