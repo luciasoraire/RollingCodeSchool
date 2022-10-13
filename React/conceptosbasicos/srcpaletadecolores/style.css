@@ -1,0 +1,43 @@
+h1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+div.card-title.h5{
+    color: rgb(255, 255, 255);
+}
+
+p.card-text{
+    color: rgb(255, 255, 255);
+}
+
+button.ms-4.btn.btn-light{
+    background: none;
+    font-weight: 700;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+button.ms-4.btn.btn-light:hover{
+    transform: scale(1.2);
+}
+
+
+
+body{
+    width: 100%;
+	height: 100vh;
+	color: #fff;
+	background: linear-gradient(45deg,rgb(206, 166, 204),rgb(148, 148, 216),rgb(183, 162, 192));
+	background-size: 400% 400%;
+	animation: cambiar 10s ease-in-out infinite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
